@@ -5,7 +5,7 @@ window.axios = require('axios');
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 //Importo App.vue
-import App from '.views/App';
+import App from './views/App';
 
 const app = new Vue({
     el: '#app',
